@@ -25,9 +25,7 @@ public class WebDriverWrapper {
 	}
 
 	public void init() {
-
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-
 		remoteWebDriver = new RemoteWebDriver(capabilities);
 	}
 
