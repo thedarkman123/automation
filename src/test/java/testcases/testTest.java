@@ -6,6 +6,6 @@ public class testTest extends BaseTest {
 
 	@Test
 	public void firstTest() {
-		System.out.println("yesh");
+		System.out.println(config.getProp("gogo"));
 	}
 }

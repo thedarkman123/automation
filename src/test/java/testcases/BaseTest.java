@@ -9,8 +9,7 @@ import utilities.PropertiesWrapper;
 
 public class BaseTest {
 	WebDriverWrapper driverWrapper;
-	PropertiesWrapper config;
-	PropertiesWrapper or;
+	PropertiesWrapper config,or;
 	//initializations goes here
 	@BeforeSuite
 	public void setup() {
