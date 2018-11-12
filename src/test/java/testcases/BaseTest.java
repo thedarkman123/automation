@@ -5,12 +5,20 @@ import org.testng.annotations.BeforeSuite;
 
 import pageobjects.GenericPageObject;
 import utilities.WebDriverWrapper;
+import utilities.PropertiesWrapper;
 
 public class BaseTest {
 	WebDriverWrapper driverWrapper;
+	PropertiesWrapper config;
+	PropertiesWrapper or;
 	//initializations goes here
 	@BeforeSuite
 	public void setup() {
+		//a wrapper for properties
+		config = new PropertiesWrapper("Config");
+		or     = new PropertiesWrapper("OR");
+		
+		//a wrapper for the webdriver
 		driverWrapper = new WebDriverWrapper();
 		driverWrapper.init();
 
@@ -18,7 +26,8 @@ public class BaseTest {
 	}
 	
 	@AfterSuite
-	public void quit() {
+	public void teardown() {
 		driverWrapper.quit(); //close the browser
+		driverWrapper = null;
 	}
 }
