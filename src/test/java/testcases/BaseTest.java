@@ -26,7 +26,8 @@ public class BaseTest {
 	
 	@AfterSuite
 	public void teardown() {
-		driverWrapper.quit(); //close the browser
-		driverWrapper = null;
+		if (driverWrapper != null) {
+			driverWrapper.quit(); //close the browser
+		}
 	}
 }
