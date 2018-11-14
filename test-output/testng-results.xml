@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29" started-at="2018-11-13T19:18:36Z" finished-at="2018-11-13T19:18:36Z">
+  <suite name="Default suite" duration-ms="5997" started-at="2018-11-14T09:05:18Z" finished-at="2018-11-14T09:05:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29" started-at="2018-11-13T19:18:36Z" finished-at="2018-11-13T19:18:36Z">
+    <test name="Default test" duration-ms="5997" started-at="2018-11-14T09:05:18Z" finished-at="2018-11-14T09:05:24Z">
       <class name="testcases.TestTesting">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TestTesting@1068e947]" name="setup" is-config="true" duration-ms="3079" started-at="2018-11-13T19:18:33Z" finished-at="2018-11-13T19:18:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TestTesting@1068e947]" name="setup" is-config="true" duration-ms="3765" started-at="2018-11-14T09:05:15Z" finished-at="2018-11-14T09:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:testcases.TestTesting@1068e947]" name="firstTest" duration-ms="7" started-at="2018-11-13T19:18:36Z" finished-at="2018-11-13T19:18:36Z">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:testcases.TestTesting@1068e947]" name="firstTest" duration-ms="5976" started-at="2018-11-14T09:05:18Z" finished-at="2018-11-14T09:05:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TestTesting@1068e947]" name="teardown" is-config="true" duration-ms="84" started-at="2018-11-13T19:18:36Z" finished-at="2018-11-13T19:18:36Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TestTesting@1068e947]" name="teardown" is-config="true" duration-ms="86" started-at="2018-11-14T09:05:24Z" finished-at="2018-11-14T09:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcases.TestTesting -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

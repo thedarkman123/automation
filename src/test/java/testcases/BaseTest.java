@@ -25,6 +25,7 @@ public class BaseTest {
 		driverWrapper.init();
 
 		GenericPageObject.setWebDriver(driverWrapper);
+		GenericPageObject.setPropertiesDriver(or);//the only needed properties file
 	}
 	
 	@AfterSuite
