@@ -1,11 +1,17 @@
 package pageobjects;
 
+import utilities.PropertiesWrapper;
 import utilities.WebDriverWrapper;
 
 public class GenericPageObject {
-	public static WebDriverWrapper driverWrapper;
+	protected static WebDriverWrapper driverWrapper;
+	protected static PropertiesWrapper propertiesWrapper;
 
 	public static void setWebDriver(WebDriverWrapper _driverWrapper) {
 		driverWrapper = _driverWrapper;
+	}
+	
+	public static void setPropertiesDriver(PropertiesWrapper _propertiesWrapper) {
+		propertiesWrapper = _propertiesWrapper;
 	}
 }
